@@ -171,6 +171,7 @@ CREATE TABLE Верблюды (
     pack_animal_id INT NOT NULL,
     FOREIGN KEY (pack_animal_id) REFERENCES Вьючные_животные(id)
 ); 
+
 CREATE TABLE Ослы (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL,
